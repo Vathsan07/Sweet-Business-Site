@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.bg-amber-50 {
+  background-color: #fef3c7;
+}
+
+.bg-amber-500 {
+  background-color: #f59e0b;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-brown-800 {
+  color: #4b5563;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header styles */
+header {
+  background-color: #f59e0b;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+/* Footer styles */
+footer {
+  background-color: #4b5563;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer a {
+  color: #f59e0b;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
