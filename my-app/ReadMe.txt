@@ -1,3 +1,11 @@
+open 2 terminals -> one for starting node server for backend and then one for starting web app.
+First start the backend,
+PS C:\MyReact\my-app\src> node server.js
+then the web app,
+PS C:\MyReact\my-app> npm start  
+
+
+
 That's great to hear! 🎉 Below is a **detailed summary** of the procedures, technologies, and key concepts we used to build and integrate your web application. You can use this as a reference when explaining it to your tech lead.
 
 ---
